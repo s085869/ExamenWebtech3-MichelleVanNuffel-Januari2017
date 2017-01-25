@@ -1,0 +1,19 @@
+package edu.ap.registratie;
+
+import org.restlet.resource.ClientResource;
+
+public class RegistratieClient {
+
+	public static void main(String[] args) {
+		try {
+        	ClientResource resource = new ClientResource("http://127.0.0.1:8181/spoed/registratie");
+        	
+        	// Create a registration
+        	Registratie registratie1 = new Registratie("01/01/2017 01:00:00", "Michelle Van Nuffel", "27/05/1993", "Jeroen Meus", "Prettig gestoord");
+        }
+        catch (Exception e) {
+            System.out.println("In main : " + e.getMessage());
+        }
+	}
+
+}

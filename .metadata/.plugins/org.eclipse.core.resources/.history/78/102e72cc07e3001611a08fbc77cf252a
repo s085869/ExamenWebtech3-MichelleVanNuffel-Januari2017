@@ -1,0 +1,24 @@
+package edu.ap.registratie;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+public class RegistratieService {
+
+	public void addRegistration(Registratie registratie){
+		try(FileWriter fw = new FileWriter("outfilename", true);
+			    BufferedWriter bw = new BufferedWriter(fw);
+			    PrintWriter out = new PrintWriter(bw))
+			{
+			    out.println("the text");
+			    //more code
+			    out.println("more text");
+			    //more code
+			} catch (IOException e) {
+			    System.out.printnln(e);
+			}
+	}
+	
+}

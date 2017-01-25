@@ -1,0 +1,9 @@
+package edu.ap.registratie;
+
+public class RegistratieService {
+
+	public void addRegistration(Registratie registratie){
+		
+	}
+	
+}

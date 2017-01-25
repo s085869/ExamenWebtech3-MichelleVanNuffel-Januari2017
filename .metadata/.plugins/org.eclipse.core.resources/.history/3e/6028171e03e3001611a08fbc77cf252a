@@ -1,0 +1,20 @@
+package edu.ap.registratie;
+
+import java.util.Date;
+
+public class Registratie {
+
+	private Date interventiedatum;
+	private String patiëntNaam;
+	private Date geboortedatum;
+	private String verpleegkundigeNaam;
+	private String diagnose;
+
+	public Date getInterventiedatum() {
+		return interventiedatum;
+	}
+
+	public void setInterventiedatum(Date interventiedatum) {
+		this.interventiedatum = interventiedatum;
+	}
+}

@@ -1,0 +1,60 @@
+package edu.ap.registratie;
+
+import java.util.Date;
+
+public class Registratie {
+
+	private Date interventiedatum;
+	private String patiëntNaam;
+	private Date geboortedatum;
+	private String verpleegkundigeNaam;
+	private String diagnose;
+	
+	public Registratie(Date datum, String patiënt, Date geboorte, String verpleegkundige, String diagnose){
+		this.interventiedatum = datum;
+		this.patiëntNaam = patiënt;
+		this.geboortedatum = geboorte;
+		this.verpleegkundigeNaam = verpleegkundige;
+		this.diagnose = diagnose;
+	}
+	
+	public Date getInterventiedatum() {
+		return interventiedatum;
+	}
+
+	public void setInterventiedatum(Date interventiedatum) {
+		this.interventiedatum = interventiedatum;
+	}
+
+	public String getPatiëntNaam() {
+		return patiëntNaam;
+	}
+
+	public void setPatiëntNaam(String patiëntNaam) {
+		this.patiëntNaam = patiëntNaam;
+	}
+
+	public Date getGeboortedatum() {
+		return geboortedatum;
+	}
+
+	public void setGeboortedatum(Date geboortedatum) {
+		this.geboortedatum = geboortedatum;
+	}
+
+	public String getVerpleegkundigeNaam() {
+		return verpleegkundigeNaam;
+	}
+
+	public void setVerpleegkundigeNaam(String verpleegkundigeNaam) {
+		this.verpleegkundigeNaam = verpleegkundigeNaam;
+	}
+
+	public String getDiagnose() {
+		return diagnose;
+	}
+
+	public void setDiagnose(String diagnose) {
+		this.diagnose = diagnose;
+	}
+}
