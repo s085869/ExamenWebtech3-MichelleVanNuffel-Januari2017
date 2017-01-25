@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.restlet.Component"/>
+<fullyQualifiedTypeName name="org.restlet.data.Protocol"/>
+<fullyQualifiedTypeName name="org.restlet.Restlet"/>
+<fullyQualifiedTypeName name="org.restlet.Application"/>
+<fullyQualifiedTypeName name="org.restlet.routing.Router"/>
+<fullyQualifiedTypeName name="org.restlet.resource.ServerResource"/>
+<fullyQualifiedTypeName name="org.restlet.resource.Post"/>
+<fullyQualifiedTypeName name="org.restlet.resource.ClientResource"/>
+</qualifiedTypeNameHistroy>
