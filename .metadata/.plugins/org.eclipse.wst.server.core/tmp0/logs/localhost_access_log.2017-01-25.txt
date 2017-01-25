@@ -7,3 +7,11 @@
 0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:52:07 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java/spoed/registratie HTTP/1.1" 404 992
 0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:38:23 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java HTTP/1.1" 404 992
 0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:38:56 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java/spoed/registratie HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:46:06 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java HTTP/1.1" 404 992
+127.0.0.1 - - [25/Jan/2017:15:47:38 +0100] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:47:38 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:48:14 +0100] "GET /spoed/registratie HTTP/1.1" 404 1028
+0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:53:55 +0100] "GET /Spoedgevallendienst/WEB-INF/classes/edu/ap/registratie/RegistratieClient.java HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [25/Jan/2017:15:54:19 +0100] "GET /spoed/registratie HTTP/1.1" 404 1028
+127.0.0.1 - - [25/Jan/2017:15:56:59 +0100] "POST /spoed/registratie HTTP/1.1" 404 1028
+127.0.0.1 - - [25/Jan/2017:15:58:33 +0100] "POST /spoed/registratie HTTP/1.1" 404 1028

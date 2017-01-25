@@ -2,7 +2,6 @@ package edu.ap.registratie;
 
 import org.restlet.resource.ClientResource;
 
-@SuppressWarnings("unused")
 public class RegistratieClient {
 
 	public static void main(String[] args) {

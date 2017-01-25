@@ -2,23 +2,18 @@ package edu.ap.registratie;
 
 import org.restlet.resource.ClientResource;
 
-@SuppressWarnings("unused")
 public class RegistratieClient {
 
 	public static void main(String[] args) {
 		try {
-        	//ClientResource resource = new ClientResource("http://127.0.0.1:8181/spoed/registratie");
-        	RegistratieService service = new RegistratieService();
-			
+        	ClientResource resource = new ClientResource();
+        	
         	// Create a registration
         	Registratie registratie1 = new Registratie("01/01/2017 01:00:00", "Michelle Van Nuffel", "27/05/1993", "Jeroen Meus", "Prettig gestoord");
         	Registratie registratie2 = new Registratie("05/01/2017 13:13:13", "Caroline Van Nuffel", "14/12/1989", "Sergio Herman", "Dolle koeien ziekte");
         
-        	//resource.post(registratie1);
-        	//resource.post(registratie2);
-        	
-        	service.addRegistration(registratie1);
-        	service.addRegistration(registratie2);
+        	resource.post(registratie1);
+        	resource.post(registratie2);
         	
 			}
         catch (Exception e) {

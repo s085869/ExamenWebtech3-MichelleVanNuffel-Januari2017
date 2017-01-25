@@ -14,11 +14,11 @@ public class RegistratieService extends ServerResource{
 	public void addRegistration(Registratie registratie){
 		try(FileWriter fw = new FileWriter("Spoedgevallen.txt", true);
 			    BufferedWriter bw = new BufferedWriter(fw);
-			    PrintWriter pw = new PrintWriter(bw)){
+			    PrintWriter pw = new PrintWriter(bw))
+			{
 			    pw.println(registratie.toString());
 			    pw.println("");
-			} 
-		catch (IOException e) {
+			} catch (IOException e) {
 			    System.out.println(e);
 			}
 	}	
