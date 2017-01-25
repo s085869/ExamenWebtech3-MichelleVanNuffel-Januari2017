@@ -1,0 +1,7 @@
+Vraag 3: Waarom kunnen REST en SOAP eigenlijk niet met elkaar vergeleken worden, maw wat is het fundamentele verschil tussen beiden?
+Antwoord: Soap is een protocol en REST is een bouwstijl, architectuur. Dit zijn 2 totaal verschillende dingen waardoor vergelijking niet mogelijk is.
+
+Vraag 4: Eén van de grote voordelen van SOAP XML is type safety. Beschrijf (kort!) twee simpele manieren waarop je dit in REST 
+		ook zou kunnen implementeren gebruik makend van standaard libraries.
+Antwoord: Basis authenticatie = het gebruik van een gebruikersnaam en een wachtwoord bij elke request om data te beschermen. Https = een toevoeging aan het HTTP 
+			protocol dat dient om data te beschermen via encryptie.
